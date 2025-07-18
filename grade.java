@@ -9,23 +9,23 @@ public class grade {
     String grade="";
     if(score>=90.0)
         grade="S";
-     else if(score>=85 && score<90)
+     else if(score>=85)
         grade="A+";
-     else if(score>=80 && score<85)
+     else if(score>=80)
         grade="A";
-     else if(score>=75 && score<80)
+     else if(score>=75)
         grade="B+";
-     else if(score>=70 && score<75)
+     else if(score>=70 )
         grade="B";
-     else if(score>=65 && score<70)
+     else if(score>=65 )
         grade="C+";
-     else if(score>=60 && score<65)
+     else if(score>=60 )
         grade="C";
-     else if(score>=50 && score<60)
+     else if(score>=50 )
         grade="D";
-     else if(score>=40 && score<50)
+     else if(score>=40 )
         grade="P";
-     else if(score>-1 && score<40)
+     else if(score>-1)
         grade="F";
      else
      {
